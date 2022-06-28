@@ -18,11 +18,11 @@ function About() {
                   Thus the name mobiresto. Since that time that restaurant has been citicized positively with pleasure among the people.</p>
               </div>  
              </div>
-             <div className="flex justify-between">
+             <div className="flex flex-col justify-between items-center my-5  bg-black text-white">
                   {/* our mission */}
-             <div className="Mission flex flex-start mb-2.5">
+             <div className="Mission flex flex-start mb-2.5 w-4/5">
                 <div className="mission-icon">
-                <img src="/images/p2.jfif" className="h-40 w-80" alt="food tile"/>
+                <img src="/images/p2.jfif" className="h-40 w-40 object-cover" alt="food tile"/>
                 </div>
                 <div className="mission-text px-5">
                     <h1 className="text-center font-bold text-3xl">Our mission</h1>
@@ -30,9 +30,9 @@ function About() {
                 </div>
              </div>
              {/* Our vision */}
-             <div className="vision flex flex-start mb-2.5">
+             <div className="vision flex flex-start mb-2.5 w-4/5">
                 <div className="vision-icon">
-                <img src="/images/p8.jfif" className="h-40 w-80" alt="food tile"/>
+                <img src="/images/p8.jfif" className="h-40 w-40 object-cover" alt="food tile"/>
                 </div>
                 <div className="vision-text">
                     <h1 className="text-center font-bold text-3xl">Our vision</h1>
@@ -40,9 +40,9 @@ function About() {
                 </div>
              </div>
              {/* Our motivation */}
-             <div className="motivation flex flex-start mb-2.5">
+             <div className="motivation flex flex-start mb-2.5 w-4/5">
                 <div className="motivation-icon">
-                <img src="/images/p7.jfif" className="h-40 w-80" alt="food tile"/>
+                <img src="/images/p7.jfif" className="h-40 w-40 object-cover" alt="food tile"/>
                 </div>
                 <div className="motivation-text">
                     <h1 className="text-center font-bold text-3xl">Our motivation</h1>
@@ -52,16 +52,16 @@ function About() {
              </div>
             
              {/* Our team */}
-             <div className="team">
-                <h1 className="text-center font-bold text-3xl">Our Team</h1>
+             <div className="team my-5">
+                <h1 className="text-center font-bold text-3xl mb-5">Our Team</h1>
                 <div className="flex flex-wrap w-full px-5 justify-between">
-                    <TeamCard imageUrl="/images/p6.jfif" memberName="John Habiyambere" position="Lead Markter" description="John Habiyambere has been an incredible Marketer for mobiresto since its establishment in 2021"/>
+                    <TeamCard imageUrl="/images/p6.jfif" memberName="Janne Habiyambere" position="Lead Marketer" description="John Habiyambere has been an incredible Marketer for mobiresto since its establishment in 2021"/>
                     <TeamCard imageUrl="/images/p1.jfif" memberName="Akariza Ines" position="Accountant" description="Akariza Ines has been an incredible Accountant for mobiresto since its establishment in 2021"/>
                     <TeamCard imageUrl="/images/p8.jfif" memberName="Patrick Iradukunda" position="COO" description="John Habiyambere has been Chief Operations Officer for mobiresto since its establishment in 2021"/>
                     <TeamCard imageUrl="/images/p5.jfif" memberName="Joseph Mugabo" position="CEO" description="Joseph Mugabo has been an incredible Marketer for mobiresto since its establishment in 2021"/>
                 </div>
              </div>
-             {/* 0788432137|0781475108 */}
+             
              <Footer/>
         </div>
     )

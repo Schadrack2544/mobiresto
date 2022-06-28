@@ -16,25 +16,25 @@ function Orders() {
         {
             orderId: 2,
             foodName:'Indian Biryani',
-            foodImage: '/mobirest_back.jpg',
+            foodImage: '/foods/food-img-5.png',
             clientName:'Bugingo Innocent',
             clientAddress: 'KN123St 2nd AV',
             clientPhone: '+250788302238',
-            foodPrice:'39.99'   
+            foodPrice:'32.99'   
         },
         {
             orderId: 3,
             foodName:'Sushi',
-            foodImage: '/mobirest_back.jpg',
+            foodImage: '/foods/food-img-4.png',
             clientName:'Peter Claus',
             clientAddress: 'KN123St 2nd AV',
             clientPhone: '+250788302238',
-            foodPrice:'39.99'
+            foodPrice:'29.99'
         },
         {
             orderId: 4,
             foodName:'American Pizza',
-            foodImage: '/mobirest_back.jpg',
+            foodImage: '/foods/food-img-3.png',
             clientName:'Uwimana Kendrick',
             clientAddress: 'KG 230St 1St AV',
             clientPhone: '+250782307235',
@@ -43,7 +43,7 @@ function Orders() {
         {
             orderId: 5,
             foodName:'Italian Pasta',
-            foodImage: '/mobirest_back.jpg',
+            foodImage: '/foods/food-img-2.png',
             clientName:'Schadrack Godson',
             clientAddress: 'KN123St 2nd AV',
             clientPhone: '+250783121773',
@@ -52,7 +52,7 @@ function Orders() {
         {
             orderId: 6,
             foodName:'Rwandan cultural dish',
-            foodImage: '/mobirest_back.jpg',
+            foodImage: '/foods/food-img-1.png',
             clientName:'Noella Godson',
             clientAddress: 'KN123St 2nd AV',
             clientPhone: '+250788437126',

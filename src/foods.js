@@ -7,75 +7,75 @@ function Foods() {
     const foods=[
         { id:1,
           foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodImage:'/foods/food-galler-img-6.jpg',
           foodCategory:'FastFood',
-          foodPrice:12.99
+          foodPrice:38.99
         },
         {   id:2,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Ethiopian dish',
+            foodImage:'/foods/food-img-1.png',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:42.99
         },
         {   id:3,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Mabona Fresh',
+            foodImage:'/foods/food-img-2.png',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:45.99
         },
         { id:4,
-          foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodName:'Spiced chief Meat',
+          foodImage:'/foods/food-img-3.png',
           foodCategory:'FastFood',
-          foodPrice:12.99
+          foodPrice:30.99
         },
         {   id:5,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Nightngale dish',
+            foodImage:'/foods/food-img-4.png',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:26.99
         },
         { id:6,
-          foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodName:'Normand Stake',
+          foodImage:'/foods/food-img-5.png',
           foodCategory:'FastFood',
           foodPrice:12.99
         },
         {   id:7,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Hungarian Beefstick',
+            foodImage:'/foods/food-galler-img-1.jpg',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:39.99
         },
         { id:8,
-          foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodName:'Tortilla Salad',
+          foodImage:'/foods/food-galler-img-2.jpg',
           foodCategory:'FastFood',
           foodPrice:12.99
         },
         { id:9,
-          foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodName:'Vegetarian Burger',
+          foodImage:'/foods/food-galler-img-3.jpg',
           foodCategory:'FastFood',
-          foodPrice:12.99
+          foodPrice:16.99
         },
         { id:10,
-          foodName:'Sushi',
-          foodImage:'/mobirest_back.jpg',
+          foodName:'Pepperoni pizza',
+          foodImage:'/foods/food-galler-img-4.jpg',
           foodCategory:'FastFood',
-          foodPrice:12.99
+          foodPrice:37.99
         },
         {   id:11,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Full Chicken',
+            foodImage:'/foods/food-galler-img-5.jpg',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:43.99
         },
         {   id:12,
-            foodName:'Sushi',
-            foodImage:'/mobirest_back.jpg',
+            foodName:'Somalian Benstulla',
+            foodImage:'/foods/food-galler-img-6.jpg',
             foodCategory:'FastFood',
-            foodPrice:12.99
+            foodPrice:28.99
         }
     ];
     return (

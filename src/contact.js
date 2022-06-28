@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="h-auto px-2.5 py-2.5 w-1/2 bg-black text-white opacity-60 mx-5 my-5">
                 <h1 className="my-2.5 p-2 font-bold text-2xl">Company: Mobiresto Ltd</h1>
-                <h1 className="my-2.5 p-2 font-bold text-2xl">Address: KN 2AV 168 St</h1>
+                <h1 className="my-2.5 p-2 font-bold text-2xl">Address: KN 2<sup>nd</sup>AV 168 St</h1>
                 <h1 className="my-2.5 p-2 font-bold text-2xl">Email:info@mobiresto.com</h1>
                 <h1 className="my-2.5 p-2 font-bold text-2xl">Tel:+250780494982</h1>
             </div>

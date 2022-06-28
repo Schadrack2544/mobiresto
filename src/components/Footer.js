@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="bg-gray-500">
              <div className="p-2 text-center">
-              &copy;copyright mobirestau 2021
+              &copy;copyright {new Date().getFullYear()} mobiresto Ltd
             </div>
         </div>
     )

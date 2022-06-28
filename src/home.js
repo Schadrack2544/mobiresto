@@ -4,6 +4,7 @@ import Button from './components/Button'
 import Footer from './components/Footer'
 import Foodcard from './components/Foodcard'
 import Testimonial from './components/Testimonial'
+import ClientCard from './components/ClientCard';
 function Home(){
  return (
     <div className=" bg-white min-h-screen">
@@ -16,8 +17,8 @@ function Home(){
     <h1 className="text-center text-2xl font-bold pt-40">Welcome to our mobi<span className="text-red-600">resto</span></h1>
      <Button value="Explore more" position="center" color="green"/>
    </div>
-   <div className="flex flex-col">
-     <h1 className="text-red-600 text-center font-bold text-3xl">Our menu</h1>
+   <div className="flex flex-col ">
+     <h1 className="text-red-600  text-center font-bold text-3xl">Our menu</h1>
   <div className="flex justify-evenly">
     <Foodcard key="1" src="mobirest_back.jpg" price="2500" foodTitle="Special Pilau" description="A good pilau for muslim"/>
     <Foodcard key="2" src="mobirest_back.jpg" price="3000" foodTitle="French cuisine" description="Yummy food"/>
@@ -35,6 +36,15 @@ function Home(){
       <Testimonial name="Kalisa Gericho" image="/images/p7.jfif" message="Iyo numva nshaka gufata amafunguro mobiresto niyo restaurant nkunda gusohokeramo njyewe n'abacuti banjye kuko twishimira amafunguro yaho meza ateguranye ubuhanga n'uko bakira abantu." time="yesterday 12:05 pm "/>
 
       <Testimonial name="Iradukunda Moreen" image="/images/p8.jfif" message="I thank so much people behind mobiresto because of their incredible service and the way they treat their customers. Thank you so much mobiresto for treating us better." time="yesterday 2:37 pm "/>
+  </div>
+  <div>
+    <h1 className="text-center text-red-600 text-2xl font-bold mb-5">Our Clients</h1>
+    <div className="clients flex flex-wrap justify-around">
+     <ClientCard clientName="Marriot Hotel"/>
+     <ClientCard clientName="Ubumwe Grande Hotel"/>
+     <ClientCard clientName="ONOMO Hotel"/>
+     <ClientCard clientName="Kigali Heights"/>
+    </div>
   </div>
   </div>
    <Footer/>
